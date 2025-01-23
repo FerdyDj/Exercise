@@ -15,3 +15,15 @@ if (x.toLowerCase === y.toLowerCase) {
 } else {
     console.log("Not a Palindrome")
 }
+
+/*
+let str: string = "madam"
+let reverseStr: string = ""
+
+for (let i = str.length; i >= 0; i--) {
+    // console.log(str.charAt(i))
+    reverseStr += str.chartAt(i)
+}
+
+console.log(str == reverseStr ? "Palindrome" : "Not Palindrome")
+*/
