@@ -1,3 +1,17 @@
-const a: string = "madam"
+const a: string = "Madam"
+let x: string = ""
+let y: string = ""
 
-console.log (a.charAt(0).toLowerCase == a.charAt(a.length - 1).toLowerCase ? "Palindrome" : "Not a Palindrome")
+for (let i = 0; i < a.length; i++) {
+    x = x + a.charAt(i)
+}
+
+for (let i = a.length; i >= 0; i--) {
+    y = y + a.charAt(i)
+}
+
+if (x.toLowerCase === y.toLowerCase) {
+    console.log("Palindrome")
+} else {
+    console.log("Not a Palindrome")
+}

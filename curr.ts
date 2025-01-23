@@ -1,3 +1,3 @@
 const c: number = 1000
 
-console.log("Rp. " + c + ",00")
+console.log(new Intl.NumberFormat('IDR').format(c))
